@@ -57,6 +57,7 @@
 		const CODE_503	= 503;
 		const CODE_504	= 504;
 		const CODE_507	= 507;
+		const CODE_508	= 508;
 		const CODE_510	= 510;
 		
 		protected $names = array(
@@ -101,6 +102,7 @@
 			self::CODE_503 => 'Service Unavailable',
 			self::CODE_504 => 'Gateway Time-out',
 			self::CODE_507 => 'Insufficient Storage',
+			self::CODE_508 => 'Loop Detected',
 			self::CODE_510 => 'Not Extended'
 		);
 		
